@@ -1,0 +1,57 @@
+intents:
+- greet
+- goodbye
+- bot_challenge
+- movie
+- movie_for_genre
+- movie_info
+- movie_not_older_than
+- movie_language
+- thanks
+
+entities:
+- genre
+- language
+- year
+slots:
+  genre:
+    type: text
+  language:
+    type: text
+  year:
+    type: text
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- action_get_movie
+- utter_ask_genre
+- utter_ask_not_older_than
+- utter_ask_language
+- utter_getting_movie
+- utter_welcome
+
+responses:
+  utter_greet:
+  - text: Hey! 
+  utter_goodbye:
+  - text: Bye
+  - text: Good Bye
+  utter_ask_genre:
+  - text: of a specific genre?
+  - text: what genre?
+  utter_ask_not_older_than:
+  - text: what year to start recommendation from?
+  utter_ask_language:
+  - text: what language?
+  utter_getting_movie:
+  - text: Ok, recommeding a movie ...
+  utter_welcome:
+  - text: Welcome
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

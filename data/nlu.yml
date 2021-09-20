@@ -1,0 +1,142 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: movie
+  examples: |
+    - I would like to see a movie
+    - What movies can you recommend?
+    - Suggest a movie
+    - I want to see a movie
+    - I want to watch a movie
+    - I'd love to see a movie
+    - get me a movie
+    - Please suggest a movie
+    - any movie suggestions?
+    - I wonder if you can recommend me a movie
+    - I wonder if you can suggest a movie
+    - Show me a movie
+
+- intent: movie_for_genre
+  examples: |
+    - I would like to watch an [action] movie (genre)
+    - I want to see an [action] movie (genre)
+    - I would like to see an [action] movie (genere)
+    - What [adventure] movies can you recommend? (genre)
+    - Suggest an [adventure] movie (genre)
+    - Show me an [animation] movie (genre)
+    - I wonder if you can suggest a [comedy] movie? (genre)
+    - Is there a [thrilling] crime movie? (genre)
+    - I am going to the movies today and I wonder if there is a [documentary] movies out there? (genre)
+    - I am planning a movie night today. What [drama] movies are there? (genre)
+    - Show me [family] movies, please (genre)
+    - I want to watch a [fantasy] movie (genre)
+    - any [fantasy] movie suggestions? (genre)
+    - Can you recommend a [history] movie? (genre)
+    - Oh, sorry, I meant [horror] movies (genre)
+    - [musical] movies, please (genre)
+    - Please suggest a [musical] movie (genre)
+    - The [mystery] movies that are available (genre)
+    - I'd love to see a [mystery] movie (genre)
+    - Suggest any [romance] movie to me (genre)
+    - What cool [science fiction] can you recommend? (genre)
+    - Is there a good [TV movie] that you can suggest? (genre)
+    - I would love to see a [thriller] movie (genre)
+    - get me a [thriller] movie (genre)
+    - Tell me the name of a [war] movie (genre)
+    - Show me a [war] movie (genre)
+    - I would like to watch a [western] movie with a friend (genre)
+    - I wonder if you can recommend me a [western] movie (genre)
+
+- intent: movie_info
+  examples: |
+    - [action](genre)
+    - [adventure](genre)
+    - [animation](genre)
+    - [comedy](genre)
+    - [thrilling](genre)
+    - [documentary](genre)
+    - [drama](genre)
+    - [family](genre)
+    - [fantasy](genre)
+    - [history](genre)
+    - [horror](genre)
+    - [musical](genre)
+    - [mystery](genre)
+    - [romance](genre)
+    - [science fiction](genre)
+    - [TV movie](genre)
+    - [thriller](genre)
+    - [war](genre)
+    - [western](genre)
+
+- intent: movie_not_older_than
+  examples: |
+    - [1940](year)
+    - [1950](year)
+    - [1960](year)
+    - [1970](year)
+    - [1980](year)
+    - [1990](year)
+    - [2000](year)
+    - [2010](year)
+    - [2020](year)
+
+- intent: movie_language
+  examples: |
+    - [Latin](language)
+    - [Turkish](language)
+    - [French](language)
+    - [Japanese](language)
+    - [Hindi](language)
+    - [Arabic](language)
+    - [Italian](language)
+    - [Russian](language)
+    - [English](language)
+    - [Greek](language)
+    - [German](language)
+    - [Spanish](language)
+    - [Korean](language)
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - OK
+
