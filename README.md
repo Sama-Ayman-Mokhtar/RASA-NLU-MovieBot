@@ -48,3 +48,7 @@ rasa shell
 ![horror_Italian](https://user-images.githubusercontent.com/54854067/134097992-74661403-c9b9-4ab5-a9b5-2c3d185e2404.PNG)
 
 ![fantasy_english](https://user-images.githubusercontent.com/54854067/134097875-561fda93-f9de-4b3c-b6c6-90cee4f15450.PNG)
+
+## Reference
+
+https://www.geeksforgeeks.org/chatbots-using-python-and-rasa/
